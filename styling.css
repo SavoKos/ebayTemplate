@@ -114,6 +114,26 @@ a:hover {
   padding: 0;
 }
 
+nav,
+.tabs {
+  display: flex;
+  background: #0b1e30;
+  color: #fff;
+  padding: 0;
+}
+
+nav p,
+.tabs p {
+  padding: 1rem;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+nav p:hover,
+.tabs p:hover {
+  background-color: #248fd6;
+}
+
 .gallery {
   display: flex;
   justify-content: center;
