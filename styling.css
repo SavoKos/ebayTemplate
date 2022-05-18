@@ -12002,9 +12002,3 @@ article > .wp-block-media-text:first-of-type {
     width: 100% !important;
   }
 }
-
-/* Single Product */
-.woocommerce div.product div.images img {
-  width: 100%;
-  max-width: 600px;
-}
